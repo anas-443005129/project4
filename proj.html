@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>عمل موقع ترحيبي في الويب</title>
+    <style>
+        #mymsg{
+		  position: fixed;
+		  top:30px;
+		  width: 300px;
+		  word-wrap: break-word;
+		  box-shadow: 0 0 5px rgba(159,159,159,0.6);
+		  border-radius:7px;
+		  background-color: lightblue;
+		  text-align: center;
+		  z-index: 100001;
+		  opacity: 1;
+		  padding: 10px;
+	}
+		input{
+            width:350px;
+        }
+     </style>		
+</head>
+<body>
+  
+<h1 align="center" style="color:green;"> UM Al-Qura University</h1>
+
+<img src="">
+<h1>Please enter your full name:  <input id="name" type="text" placeholder="your name">
+<button onclick="show_the_name()">
+ok </button></h1>
+
+<h1 id="h" style="color:blue;" >Welcome</h1>
+   <script>
+      const show_the_name = ()=>{
+	          var name = document.getElementById('name').value;
+		 alert("welcome "+ name+ " in my website")
+		  }
+
+        </script>
+
+<br><br>
+
+
+
+<br><br>
+
+
+
+<br><br>
+<br><br>
+
+
+
+</body>
+</html>
